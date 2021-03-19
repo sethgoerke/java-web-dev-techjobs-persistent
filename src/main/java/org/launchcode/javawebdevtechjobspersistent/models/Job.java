@@ -10,7 +10,6 @@ public class Job{
     private int id;
 
     private String name;
-
     private String employer;
     private String skills;
 
