@@ -1,21 +1,20 @@
 package org.launchcode.javawebdevtechjobspersistent.models;
-
 import javax.persistence.*;
 
 @Entity
 public class Skill extends AbstractEntity {
 
 
-    private String longerDescriptionOfSkill;
+    private String description;
 
     public Skill (){
     }
 
-    public String getLongerDescriptionOfSkill() {
-        return longerDescriptionOfSkill;
+    public String getDescription() {
+        return description;
     }
 
-    public void setLongerDescriptionOfSkill(String longerDescriptionOfSkill) {
-        this.longerDescriptionOfSkill = longerDescriptionOfSkill;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
